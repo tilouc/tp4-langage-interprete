@@ -1,0 +1,16 @@
+[project]
+name = "tp4-secuguard"
+version = "0.1.0"
+description = "outil cli pour generer et analyser des mots de passe"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.0,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "secuguard"
